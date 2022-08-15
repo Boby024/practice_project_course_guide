@@ -60,7 +60,7 @@ In the current version, when registering the email it must be the a email addres
 
 ### 6. How to run the project?
 
-#### Locally
+#### Local Machine
 
 1. Install NodeJS on your machine.
 2. Open the Frontend Folder in your Terminal and run the commands:
@@ -78,7 +78,7 @@ Use the following link to view the deployed project on Heroku:
 xxx
 
 <div>
-   -------------------------------------------------
+   --------------------------------------------------------------
 </div>
 
 # Welcome to the  CourseGuide Project!
