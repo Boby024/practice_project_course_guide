@@ -10,6 +10,7 @@ We are using the MERN stack as our main architecture:
 - Backend : Node.js  (Express.js)
 - Database : MongoDB
 - Deployment : Heroku
+- Data: Scraping Tool from ELAS (https://github.com/ude-soco/ELAS)
 
 # Team Members
 
