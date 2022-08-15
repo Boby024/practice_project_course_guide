@@ -77,6 +77,9 @@ Opt. Use Ctrl+C to terminate the server.
 Use the following link to view the deployed project on Heroku:
 xxx
 
+<div>
+   -------------------------------------------------
+</div>
 
 # Welcome to the  CourseGuide Project!
 
