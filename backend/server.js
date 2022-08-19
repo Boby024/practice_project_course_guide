@@ -11,7 +11,9 @@ const ratings = require('./controllers/RatingMessageController.js')
 const dashboards = require('./controllers/DashboardCourseController.js')
 const errors = require('./helpers/errorHandler.js')
 
-app.use(cors({origin: "http://localhost:3000"})) // Default = CORS-enabled for all origins Access-Control-Allow-Origin: *!
+// app.use(cors({origin: "http://0.0.0.0:" + (process.env.PORT || 3000) })) // Default = CORS-enabled for all origins Access-Control-Allow-Origin: *!
+
+app.use(cors())
 app.use(express.json()) // middleware for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 
