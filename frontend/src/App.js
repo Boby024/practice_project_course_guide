@@ -22,7 +22,7 @@ const App = () => {
 
     <HistoryRouter history={history}>
       <Routes>
-        <Route path={"/"}
+        <Route path={"/courses"}
           element={
             <AuthRoute>
               <CourseOverview />
@@ -35,7 +35,7 @@ const App = () => {
             </AuthRoute>
           } />
         <Route path={"/userdashboard"} element={<UserDashboard />} />
-        <Route path={"/start"} element={<Start />} />
+        <Route path={"/"} element={<Start />} />
         <Route path={"/login"} element={<Login />} />
         <Route path={"/register"} element={<Register />} />
         <Route path={"/profile"} element={<Profile />} />
