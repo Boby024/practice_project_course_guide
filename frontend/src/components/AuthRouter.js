@@ -13,7 +13,7 @@ function AuthRoute ({ children }) {
   } else {
     return (
       <>
-        <Navigate to="/start" replace />
+        <Navigate to="/" replace />
       </>
     )
   }

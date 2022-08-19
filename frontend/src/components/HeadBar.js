@@ -44,10 +44,10 @@ const HeadBar = (props) => {
 
   const handlelogout = () => {
     loginStore.logout()
-    navigate("/login")
+    navigate("/")
   }
   const handleFindCourses = () => {
-    navigate("/")
+    navigate("/courses")
   }
   const handleMyCourses = () => {
     navigate("/userdashboard")
@@ -58,7 +58,7 @@ const HeadBar = (props) => {
       <Container maxWidth="xl">
         <Toolbar sx={{ justifyContent: "space-between" }}>
           {/* logo & title */}
-          <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }} onClick={() => navigate("/")}>
+          <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }} onClick={() => navigate("/courses")}>
             <img className="login-logo" src={logo} alt=" " style={{ width: "60px", margin: "6px" }} />
             <Typography
               variant="h5"

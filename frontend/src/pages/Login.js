@@ -49,7 +49,7 @@ function Login () {
       setSnackbarOpen(true)
       // go to CourseOverview page
       setTimeout(() => {
-        navigate("/", { replace: true })
+        navigate("/courses", { replace: true })
       }, 1000)
     }
     // catch error
